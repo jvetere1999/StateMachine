@@ -17,8 +17,10 @@ repositories {
 }
 
 dependencies {
+    implementation("ch.qos.logback:logback-classic:1.2.11")
     testImplementation(kotlin("test"))
     implementation(compose.desktop.currentOs)
+    implementation("io.github.microutils:kotlin-logging-jvm:2.1.21")
 }
 
 tasks.test {

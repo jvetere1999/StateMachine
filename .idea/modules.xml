@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Logging/Logging.iml" filepath="$PROJECT_DIR$/Logging/Logging.iml" />
-      <module fileurl="file://$PROJECT_DIR$/NaturalMath/NaturalMath.iml" filepath="$PROJECT_DIR$/NaturalMath/NaturalMath.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/Logging/Logging.iml" filepath="$PROJECT_DIR$/src/Logging/Logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/NaturalMath/NaturalMath.iml" filepath="$PROJECT_DIR$/src/NaturalMath/NaturalMath.iml" />
     </modules>
   </component>
 </project>
