@@ -1,7 +1,7 @@
-package me.jvetere.junit.test.mathtest
+package mathtest
 
-import me.jvetere.naturalmath.math.Function
 import me.jvetere.naturalmath.math.Grid
+import me.jvetere.naturalmath.math.Function
 import me.jvetere.naturalmath.math.createFunction
 import org.junit.jupiter.api.Test
 

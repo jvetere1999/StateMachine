@@ -1,4 +1,4 @@
-package me.jvetere.junit.test.mathtest
+package mathtest
 
 import me.jvetere.naturalmath.math.flags.OuterFunctionFlag
 import me.jvetere.naturalmath.math.Term

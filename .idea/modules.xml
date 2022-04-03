@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/src/Logging/Logging.iml" filepath="$PROJECT_DIR$/src/Logging/Logging.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/NaturalMath/NaturalMath.iml" filepath="$PROJECT_DIR$/src/NaturalMath/NaturalMath.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/StateManagement/StateManagement.iml" filepath="$PROJECT_DIR$/src/StateManagement/StateManagement.iml" />
     </modules>
   </component>
 </project>

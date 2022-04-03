@@ -1,8 +1,8 @@
-package me.jvetere.junit.test.mathtest
+package mathtest
 
-import me.jvetere.naturalmath.math.Function
 import org.junit.jupiter.api.Test
-import me.jvetere.naturalmath.math.Grid
+import me.jvetere.naturalmath.math.*
+import me.jvetere.naturalmath.math.Function
 import me.jvetere.naturalmath.math.createFunction
 
 internal class TestingRange {
