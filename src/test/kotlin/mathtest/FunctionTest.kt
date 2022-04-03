@@ -1,4 +1,4 @@
-package test.com.jvetere.kotlin.mathtest
+package mathtest
 
 import me.jvetere.naturalmath.math.Function
 import me.jvetere.naturalmath.math.createFunction
