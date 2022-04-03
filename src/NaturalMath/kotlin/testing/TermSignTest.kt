@@ -1,13 +1,14 @@
-package mathtest
+package testing
 
 
 import me.jvetere.naturalmath.math.flags.OuterFunctionFlag
 import me.jvetere.naturalmath.math.Term
 import me.jvetere.naturalmath.math.createTerm
+import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertAll
 import kotlin.math.PI
-import kotlin.test.assertEquals
+
 internal class TermSignTest {
     @Test
     internal fun sinTrust() {

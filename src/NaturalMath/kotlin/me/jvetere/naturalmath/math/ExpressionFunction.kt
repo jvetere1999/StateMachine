@@ -7,7 +7,7 @@ import java.util.stream.IntStream.range
 /**
  * Circular linked list of terms
  */
-data class Function(val head: Term, val butt: Term) {
+data class ExpressionFunction(val head: Term, val butt: Term) {
     var pointer: Term = head;
     private var hashMap: HashMap<Int,Double> = HashMap()
     val form: StringForm = StringForm.FUNCTION;
@@ -50,7 +50,7 @@ data class Function(val head: Term, val butt: Term) {
     }
 }
 
-fun createFunction(exp: String): Function {
+fun createFunction(exp: String): ExpressionFunction {
     val termString: List<String> = exp.split("+")
     val head: Term = createTerm(termString[0])
     var prev: Term = head
@@ -59,5 +59,5 @@ fun createFunction(exp: String): Function {
         prev = prev.next!!;
     }
     val butt: Term = prev
-    return Function(head, butt)
+    return ExpressionFunction(head, butt)
 }

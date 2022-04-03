@@ -1,8 +1,8 @@
-package mathtest
+package testing
 
 import org.junit.jupiter.api.Test
 import me.jvetere.naturalmath.math.*
-import me.jvetere.naturalmath.math.Function
+
 import me.jvetere.naturalmath.math.createFunction
 
 internal class TestingRange {
@@ -10,7 +10,7 @@ internal class TestingRange {
     @Test
     internal fun toStringTesting() {
         val exp: String = "-2sin(x^2)+2x+1"
-        val func: Function = createFunction(exp)
+        val func: ExpressionFunction = createFunction(exp)
         val grid: Grid = Grid(25, 25, func)
         println(grid)
     }

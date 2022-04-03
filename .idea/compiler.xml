@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="StateMachine" target="16" />
+      <module name="StateMachine.main" target="16" />
+      <module name="StateMachine.test" target="16" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

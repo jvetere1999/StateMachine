@@ -2,7 +2,7 @@ package me.jvetere.naturalmath.math
 
 import java.util.stream.IntStream.range
 
-data class Graph(val yBound: Int, val xBound: Int, val functions: List<Function>) {
+data class Graph(val yBound: Int, val xBound: Int, val functions: List<ExpressionFunction>) {
     private var grids = Array(functions.size) { Grid(yBound, xBound, null) }
     init {
         for( x in range(0, xBound)) {
